@@ -17,7 +17,7 @@ public class LoginView : ViewBase
 
     private void OnLoginButtonClick()
     {
-        GameScenesManager.Instance.LoadSceneAsync("Game", "PlayerPanel");
+        GameScenesManager.Instance.LoadSceneAsync("Game", "LoginPanel");
     }
 
 
